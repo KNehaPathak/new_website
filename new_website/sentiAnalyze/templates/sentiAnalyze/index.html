@@ -1,0 +1,14 @@
+
+<center>
+<h1>Most Comman Tweets are:</h1>
+{% for keys in finalResult %}
+    <li>{{keys}}</li>
+{% endfor %}
+<!--Positive: {{positive_sentiment}}-->
+
+<h1>Sentiment Analysis are:</h1>
+{% for key,value in data_dict.items %}
+    {{ value }}  <br><br>
+ {% endfor %}
+
+</center>
